@@ -1,0 +1,314 @@
+order_id,order_date,customer_id,product_id,category,region,sales_channel,quantity,unit_price,sales_amount,payment_type,discount_pct,failed_rules
+O000009,2026-01-14,C0242,P0265,,Southeast,Online,2.0,155.53,264.4,Debit Card,0.15,missing_critical_values
+O000017,2026-02-20,C0593,P0392,Toys,Southeast,Store,3.0,,3205.87,Pix,0.1,missing_critical_values
+O000022,2026-02-11,C0892,P0179,Accessories,North,Online,1.0,478.39,683.64,Credit Card,0.15,sales_amount_inconsistency
+O000030,2026-01-24,C1398,P0160,Electronics,North,Online,1.0,611.72,611.72,Debit Card,0.0,duplicate_order_ids
+O000033,2026-01-28,C0855,P0224,Office,North,Marketplace,1.0,955.18,907.42,Credit Card,0.75,discount_pct_range_invalid; sales_amount_inconsistency
+O000059,2026-02-11,C0759,P0026,Electronics,North,Store,-1.0,391.75,940.2,Pix,0.2,quantity_range_invalid; sales_amount_inconsistency
+O000066,2026-02-24,C0936,P0308,Toys,South,Store,5.0,1454.61,6909.4,Credit Card,0.05,duplicate_order_ids
+O000084,2026-02-26,C0676,P0394,Accessories,Southeast,Online,5.0,,5077.89,Boleto,0.1,missing_critical_values
+O000107,2026-01-16,C0471,P0012,Toys,Southeast,Store,2.0,0.0,2424.39,Credit Card,0.15,duplicate_order_ids; sales_amount_inconsistency; unit_price_range_invalid
+O000151,2026-01-31,C1064,P0229,Toys,South,Store,4.0,1495.91,5684.46,Debit Card,0.75,discount_pct_range_invalid; sales_amount_inconsistency
+O000185,2026-01-17,C0640,P0364,Accessories,South,Store,3.0,219.88,659.64,Debit Card,-0.1,discount_pct_range_invalid; sales_amount_inconsistency
+O000193,2026-02-23,C0988,P0113,Electronics,South,Store,2.0,750.55,1350.99,Debit Card,-0.1,discount_pct_range_invalid; sales_amount_inconsistency
+O000217,2026-02-23,C0098,P0055,Electronics,South,Store,0.0,730.79,3471.25,Pix,0.05,quantity_range_invalid; sales_amount_inconsistency
+O000229,2026-01-18,C1247,P0372,Accessories,Midwest,Marketplace,3.0,485.46,1383.56,Credit Card,0.05,duplicate_order_ids
+O000277,2026/02/15,C1186,P0163,Office,North,Marketplace,1.0,980.98,833.83,Boleto,0.15,invalid_order_date
+O000282,2026-02-13,C0521,P0166,Home,North,Store,,249.63,199.7,Pix,0.2,missing_critical_values
+O000290,2026-02-15,C0122,P0143,Toys,Southeast,Marketplace,2.0,,121.31,Pix,0.15,missing_critical_values
+O000294,2026/02/15,C1338,P0022,Electronics,Midwest,Marketplace,2.0,726.55,1453.1,Pix,0.0,invalid_order_date
+O000296,2026-01-23,C0909,P0025,Electronics,Southeast,Store,5.0,927.46,5102.74,Credit Card,0.1,sales_amount_inconsistency
+O000305,2026-01-15,C1442,P0262,,Midwest,Online,2.0,1488.28,2827.73,Debit Card,0.05,missing_critical_values
+O000334,2026-02-14,C1355,P0129,Electronics,Southeast,Marketplace,-1.0,499.29,499.29,Pix,0.0,duplicate_order_ids; quantity_range_invalid; sales_amount_inconsistency
+O000348,15-02-2026,C0445,P0298,Home,South,Marketplace,0.0,642.55,2570.2,Credit Card,0.0,invalid_order_date; quantity_range_invalid; sales_amount_inconsistency
+O000374,2026-02-14,C0361,P0341,Home,Midwest,Store,2.0,1406.07,2812.14,Boleto,-0.1,discount_pct_range_invalid; sales_amount_inconsistency
+O000394,2026-01-22,C0510,P0183,Office,South,Store,2.0,209.37,334.99,Pix,0.2,duplicate_order_ids
+O000395,2026-02-23,C0742,P0079,Toys,South,Marketplace,5.0,1142.83,5428.44,Credit Card,-0.1,discount_pct_range_invalid; sales_amount_inconsistency
+O000402,invalid_date,C1144,P0393,Office,Northeast,Marketplace,1.0,1035.32,880.02,Credit Card,0.15,invalid_order_date
+O000429,2026-02-17,,P0393,Toys,Northeast,Marketplace,4.0,791.0,3005.8,Credit Card,0.05,missing_critical_values
+O000438,2026-01-31,C1212,P0060,,Northeast,Marketplace,3.0,752.4,2031.48,Pix,0.1,missing_critical_values
+O000452,15-02-2026,C0985,P0036,Office,Southeast,Store,5.0,112.75,479.19,Credit Card,0.15,invalid_order_date
+O000474,2026-02-20,C0779,P0268,Accessories,South,Marketplace,2.0,150.11,335.14,Debit Card,0.15,sales_amount_inconsistency
+O000484,2026-02-04,C0701,P0265,Home,Midwest,Marketplace,4.0,1378.13,4961.27,Credit Card,0.75,discount_pct_range_invalid; sales_amount_inconsistency
+O000487,2026-01-28,C0986,P0277,Accessories,Northeast,Store,4.0,1240.71,4962.84,Credit Card,0.0,duplicate_order_ids
+O000502,2026-01-30,C0265,P0320,Accessories,South,Store,1.0,708.46,961.74,Credit Card,0.0,duplicate_order_ids; sales_amount_inconsistency
+O000557,2026-01-05,,P0101,Toys,Midwest,Marketplace,4.0,1361.34,4900.82,Debit Card,0.1,missing_critical_values
+O000590,2026-01-15,C0819,P0141,Accessories,North,Store,3.0,1365.82,3482.84,Pix,0.15,duplicate_order_ids
+O000617,2026-02-28,C1114,P0199,,South,Marketplace,2.0,1345.15,2690.3,Boleto,0.0,missing_critical_values
+O000643,2026-01-20,C1290,P0315,Office,North,Online,3.0,1130.14,2712.34,Credit Card,0.2,duplicate_order_ids
+O000670,2026-01-15,C1124,P0032,Office,Northeast,Marketplace,4.0,582.69,2097.68,Boleto,0.75,discount_pct_range_invalid; sales_amount_inconsistency
+O000706,2026-02-05,C1467,P0319,Toys,Midwest,Online,5.0,1182.29,5320.3,Boleto,0.1,duplicate_order_ids
+O000707,2026-01-10,C0870,P0321,Office,Midwest,Marketplace,3.0,786.96,2676.97,Boleto,0.1,sales_amount_inconsistency
+O000709,2026-01-25,C0295,P0369,,North,Store,4.0,558.99,1788.77,Credit Card,0.2,missing_critical_values
+O000731,2026-02-02,C0019,P0195,Accessories,Southeast,Online,,623.68,1184.99,Boleto,0.05,missing_critical_values
+O000746,2026-01-03,C0003,P0182,Office,Northeast,Marketplace,3.0,1062.89,2710.37,Boleto,-0.1,discount_pct_range_invalid; sales_amount_inconsistency
+O000763,2026-01-21,C0608,P0163,Office,North,Online,5.0,948.76,5802.62,Boleto,0.05,sales_amount_inconsistency
+O000767,2026-01-31,C1115,P0061,Office,Southeast,Marketplace,2.0,18.52,53.71,Boleto,0.1,sales_amount_inconsistency
+O000795,2026-01-20,C0584,P0296,Electronics,Northeast,Marketplace,4.0,424.77,1529.17,Boleto,0.1,duplicate_order_ids
+O000797,2026-01-10,C0039,P0028,,Southeast,Marketplace,1.0,537.01,429.61,Credit Card,0.2,missing_critical_values
+O000820,invalid_date,C1253,P0156,Home,Southeast,Online,1.0,1056.71,1003.87,Pix,0.05,invalid_order_date
+O000822,2026-02-15,C1118,P0338,Accessories,Northeast,Online,0.0,1014.86,4059.44,Pix,0.2,quantity_range_invalid; sales_amount_inconsistency
+O000826,2026-02-03,C1289,P0288,Accessories,North,Marketplace,0.0,1089.65,4358.6,Credit Card,0.0,quantity_range_invalid; sales_amount_inconsistency
+O000839,2026-01-27,C0137,P0367,Toys,Southeast,Marketplace,4.0,416.7,1333.44,Boleto,0.2,duplicate_order_ids
+O000848,2026-02-27,C0070,P0113,Toys,North,Marketplace,,522.5,1332.38,Credit Card,0.15,missing_critical_values
+O000854,2026-02-08,C0717,P0379,Electronics,South,Online,5.0,376.9,2444.65,Credit Card,0.15,sales_amount_inconsistency
+O000869,2026-01-14,C0880,P0239,Electronics,North,Online,-1.0,838.93,2852.36,Debit Card,0.15,quantity_range_invalid; sales_amount_inconsistency
+O000902,2026-02-08,C1011,P0038,Home,Midwest,Marketplace,4.0,1011.85,6147.6,Boleto,0.0,sales_amount_inconsistency
+O000916,2026-02-07,C1120,P0381,Accessories,Northeast,Store,2.0,1041.61,2083.22,Credit Card,0.0,duplicate_order_ids
+O000927,2026-01-18,C0294,P0195,Accessories,Southeast,Online,5.0,415.21,1868.44,Credit Card,0.1,duplicate_order_ids
+O000929,2026-01-16,C1361,P0087,Home,North,Store,5.0,,2212.85,Credit Card,0.15,missing_critical_values
+O000930,2026-01-17,C0681,P0310,Toys,North,Store,4.0,978.18,4806.24,Boleto,0.2,sales_amount_inconsistency
+O000951,2026-01-24,C0720,P0377,Accessories,Northeast,Store,-1.0,1152.13,5760.65,Credit Card,0.0,quantity_range_invalid; sales_amount_inconsistency
+O000957,2026-02-20,C0358,P0106,Toys,Midwest,Marketplace,0.0,992.94,2532.0,Boleto,0.15,quantity_range_invalid; sales_amount_inconsistency
+O000969,2026-01-08,,P0019,Electronics,Southeast,Marketplace,5.0,639.76,2559.04,Boleto,0.2,missing_critical_values
+O000999,2026-01-28,C0699,P0289,Accessories,South,Marketplace,3.0,787.61,2008.41,Boleto,0.75,discount_pct_range_invalid; sales_amount_inconsistency
+O001014,2026-03-01,C1150,P0345,Accessories,North,Online,,944.18,1699.52,Boleto,0.1,missing_critical_values
+O001019,2026-01-10,C0542,P0244,Accessories,North,Store,2.0,,734.55,Debit Card,0.15,missing_critical_values
+O001036,2026-01-07,C1179,P0010,Electronics,Northeast,Store,2.0,,793.84,Debit Card,0.05,missing_critical_values
+O001056,2026-02-27,C1152,P0113,Toys,South,Online,3.0,692.46,1973.51,Debit Card,0.05,duplicate_order_ids
+O001074,2026-01-29,C0425,P0042,Toys,North,Online,2.0,1261.6,2397.04,Boleto,0.05,duplicate_order_ids
+O001085,2026-01-13,C0391,P0335,Office,South,Online,4.0,32114.77,128459.08,Credit Card,0.0,duplicate_order_ids
+O001101,2026/02/15,C0913,P0274,Electronics,Southeast,Marketplace,2.0,257.68,412.29,Boleto,0.2,invalid_order_date
+O001118,2026-01-23,C1361,P0254,Office,Southeast,Online,4.0,1109.87,3773.56,Debit Card,0.15,duplicate_order_ids
+O001134,2026-02-17,C1032,P0292,Toys,North,Store,5.0,584.47,2865.35,Debit Card,0.2,sales_amount_inconsistency
+O001274,invalid_date,C0826,P0082,Home,Northeast,Store,2.0,93.76,150.02,Boleto,0.2,invalid_order_date
+O001278,2026-01-01,C0536,P0035,Toys,North,Marketplace,4.0,,1228.32,Boleto,0.1,missing_critical_values
+O001286,2026-01-19,C1349,P0128,,Midwest,Online,3.0,204.18,551.29,Debit Card,0.1,missing_critical_values
+O001335,2026-02-24,C1198,P0029,,North,Marketplace,3.0,956.54,2439.18,Boleto,0.15,missing_critical_values
+O001337,2026/02/15,C1239,P0322,Home,Southeast,Online,3.0,617.83,1482.79,Debit Card,0.2,invalid_order_date
+O001341,2026-01-17,C0639,P0379,,North,Store,2.0,1405.38,2389.15,Debit Card,0.15,missing_critical_values
+O001346,2026-02-08,C0101,P0021,Home,South,Store,2.0,20814.42,45791.72,Boleto,-0.1,discount_pct_range_invalid
+O001359,2026-01-29,C0757,P0270,Home,South,Store,1.0,127.61,126.89,Credit Card,0.2,sales_amount_inconsistency
+O001384,2026-01-11,,P0281,Electronics,South,Marketplace,5.0,1120.99,5044.46,Boleto,0.1,missing_critical_values
+O001393,2026-02-09,C1071,P0203,Electronics,Northeast,Store,1.0,,1174.48,Boleto,0.15,missing_critical_values
+O001411,2026-02-23,C0444,P0353,Accessories,Midwest,Online,4.0,816.39,4115.92,Boleto,0.2,sales_amount_inconsistency
+O001447,2026-02-19,C0162,P0331,Accessories,Southeast,Online,1.0,,89.05,Credit Card,0.15,missing_critical_values
+O001459,2026-01-09,,P0035,Electronics,Midwest,Marketplace,4.0,1159.5,4638.0,Debit Card,0.0,missing_critical_values
+O001478,2026-01-30,C0995,P0048,,Midwest,Online,4.0,385.48,1233.54,Debit Card,0.2,missing_critical_values
+O001491,2026-02-12,C0839,P0094,Electronics,Northeast,Online,2.0,1096.83,2193.66,Debit Card,0.75,discount_pct_range_invalid; sales_amount_inconsistency
+O001494,2026-01-18,C1310,P0382,Home,Midwest,Marketplace,1.0,0.0,827.12,Debit Card,0.15,sales_amount_inconsistency; unit_price_range_invalid
+O001502,2026-01-30,C0376,P0231,Toys,Southeast,Store,4.0,348.54,1324.45,Boleto,0.05,duplicate_order_ids
+O001588,2026/02/15,C1039,P0266,Office,South,Store,1.0,1491.95,1491.95,Boleto,0.0,invalid_order_date
+O001601,2026-01-15,C1120,P0262,Accessories,Northeast,Marketplace,5.0,124.95,531.04,Pix,0.15,duplicate_order_ids
+O001720,2026-01-23,C1155,P0067,,South,Store,4.0,926.21,3334.36,Credit Card,0.1,missing_critical_values
+O001722,15-02-2026,C0486,P0296,Toys,South,Online,1.0,858.59,729.8,Credit Card,0.15,invalid_order_date
+O001730,15-02-2026,C1281,P0296,Home,North,Store,5.0,1393.22,6269.49,Debit Card,0.1,invalid_order_date
+O001745,2026-01-21,C0769,P0379,Electronics,Midwest,Marketplace,3.0,402.77,1208.31,Debit Card,0.0,duplicate_order_ids
+O001749,2026-02-06,C1372,P0286,Office,North,Store,,392.86,707.15,Boleto,0.1,missing_critical_values
+O001750,2026-01-26,C1401,P0231,Toys,North,Store,1.0,926.49,1226.57,Boleto,0.05,sales_amount_inconsistency
+O001752,2026-02-02,C0935,P0235,,South,Online,3.0,950.24,2708.18,Pix,0.05,missing_critical_values
+O001756,2026-02-23,C1190,P0191,Toys,Midwest,Online,1.0,319.13,319.13,Boleto,0.0,duplicate_order_ids
+O001760,2026-02-09,C1491,P0235,Accessories,Northeast,Marketplace,0.0,637.47,2549.88,Debit Card,0.2,quantity_range_invalid; sales_amount_inconsistency
+O001767,2026-02-23,C0931,P0400,Office,South,Marketplace,3.0,1418.0,4299.33,Debit Card,0.2,sales_amount_inconsistency
+O001792,15-02-2026,C0212,P0153,Accessories,Southeast,Online,2.0,1034.05,1654.48,Debit Card,0.2,invalid_order_date
+O001860,2026-02-08,C0137,P0190,Home,Southeast,Marketplace,5.0,70.09,297.88,Pix,0.75,discount_pct_range_invalid; sales_amount_inconsistency
+O001900,2026-02-10,,P0378,Home,Midwest,Store,4.0,138.77,444.06,Debit Card,0.2,missing_critical_values
+O001936,2026-02-01,C1125,P0132,Home,Southeast,Store,-1.0,834.7,4173.5,Boleto,0.0,quantity_range_invalid; sales_amount_inconsistency
+O001963,2026-01-30,C0348,P0159,Office,South,Store,1.0,380.9,342.81,Boleto,0.1,duplicate_order_ids
+O001973,2026-02-23,C0014,P0133,Toys,South,Online,1.0,70.36,98.07,Boleto,0.15,sales_amount_inconsistency
+O001974,2026-01-16,C1223,P0080,Home,Southeast,Store,-1.0,64.42,164.27,Credit Card,0.15,quantity_range_invalid; sales_amount_inconsistency
+O002051,2026-01-25,C1148,P0293,,South,Store,2.0,1364.38,2592.32,Credit Card,0.05,missing_critical_values
+O002059,2026-01-10,C1308,P0377,Toys,Midwest,Marketplace,3.0,0.0,3173.17,Boleto,0.15,sales_amount_inconsistency; unit_price_range_invalid
+O002080,2026-02-19,C0397,P0174,Accessories,South,Store,2.0,0.0,1729.48,Pix,0.0,sales_amount_inconsistency; unit_price_range_invalid
+O002100,2026-01-07,C0986,P0071,Home,Southeast,Marketplace,4.0,1319.87,4751.53,Boleto,0.1,duplicate_order_ids
+O002115,2026-03-01,C1290,P0031,Toys,Midwest,Marketplace,5.0,464.27,3707.99,Pix,0.0,sales_amount_inconsistency
+O002147,2026-02-25,C0619,P0141,Office,South,Online,,38.57,123.42,Pix,0.2,missing_critical_values
+O002150,2026-01-24,C0796,P0375,,Midwest,Online,3.0,1458.17,4155.78,Pix,0.05,missing_critical_values
+O002175,2026-02-17,C0773,P0110,Electronics,Northeast,Store,-1.0,1449.61,7248.05,Debit Card,0.0,quantity_range_invalid; sales_amount_inconsistency
+O002214,2026-01-16,C1101,P0221,Electronics,South,Marketplace,,338.16,338.16,Boleto,0.0,missing_critical_values
+O002224,2026-01-23,C0444,P0255,Accessories,Northeast,Online,2.0,714.46,1581.69,Debit Card,0.2,sales_amount_inconsistency
+O002269,2026-01-13,C1462,P0136,Accessories,Midwest,Online,0.0,602.41,2409.64,Pix,0.2,quantity_range_invalid; sales_amount_inconsistency
+O002307,2026-01-18,C1331,P0351,Home,Northeast,Online,5.0,471.13,2769.94,Pix,0.15,sales_amount_inconsistency
+O002324,2026-01-02,C1024,P0010,Electronics,Southeast,Marketplace,,526.18,473.56,Boleto,0.1,missing_critical_values
+O002327,2026-01-08,C1012,P0226,Electronics,South,Online,2.0,0.0,1012.46,Credit Card,0.0,sales_amount_inconsistency; unit_price_range_invalid
+O002333,2026-01-27,C0390,P0359,,North,Store,3.0,905.53,2173.27,Debit Card,0.2,missing_critical_values
+O002358,2026-01-21,C1169,P0146,Home,South,Online,0.0,892.26,758.42,Credit Card,0.15,quantity_range_invalid; sales_amount_inconsistency
+O002371,2026-02-27,C1225,P0390,Home,North,Store,5.0,1053.28,4476.44,Credit Card,-0.1,discount_pct_range_invalid; sales_amount_inconsistency
+O002382,2026-01-22,C0790,P0041,Accessories,North,Marketplace,4.0,1273.04,6689.99,Pix,0.05,sales_amount_inconsistency
+O002390,2026-02-08,C0296,P0135,Home,Northeast,Online,1.0,32.15,31.44,Credit Card,0.2,sales_amount_inconsistency
+O002401,2026-02-02,C0583,P0137,Home,North,Marketplace,5.0,909.78,5429.75,Debit Card,0.1,sales_amount_inconsistency
+O002403,2026-02-06,C0013,P0190,Office,Northeast,Online,-1.0,1167.97,3328.71,Debit Card,0.05,quantity_range_invalid; sales_amount_inconsistency
+O002414,2026-02-15,C1097,P0084,Toys,Southeast,Store,3.0,1077.03,2584.87,Pix,0.2,duplicate_order_ids
+O002442,2026-01-08,C1305,P0115,Office,South,Online,0.0,808.07,3070.67,Debit Card,0.05,quantity_range_invalid; sales_amount_inconsistency
+O002444,2026-01-31,C1008,P0333,Toys,Midwest,Marketplace,0.0,329.98,1187.93,Credit Card,0.1,quantity_range_invalid; sales_amount_inconsistency
+O002453,2026-02-05,C0194,P0018,Accessories,Southeast,Marketplace,5.0,790.27,4628.56,Pix,0.15,sales_amount_inconsistency
+O002465,2026-01-29,C1376,P0266,Toys,North,Marketplace,5.0,1429.99,6792.45,Boleto,0.05,duplicate_order_ids
+O002469,2026-02-08,C0723,P0109,Office,Midwest,Online,2.0,1095.19,1752.3,Boleto,0.2,duplicate_order_ids
+O002482,2026-02-14,C0903,P0361,Accessories,Midwest,Marketplace,4.0,69.62,349.17,Credit Card,0.1,sales_amount_inconsistency
+O002516,2026-02-07,C1067,P0117,Accessories,North,Marketplace,5.0,528.62,2643.1,Debit Card,0.0,duplicate_order_ids
+O002543,2026-01-28,C0468,P0049,Toys,North,Marketplace,3.0,705.78,1799.74,Debit Card,0.75,discount_pct_range_invalid; sales_amount_inconsistency
+O002544,2026-01-18,C1068,P0194,Electronics,Southeast,Online,2.0,476.99,906.28,Credit Card,0.75,discount_pct_range_invalid; sales_amount_inconsistency
+O002553,2026-02-04,C1402,P0268,Accessories,Midwest,Online,5.0,407.08,2895.27,Pix,0.2,sales_amount_inconsistency
+O002567,2026-02-07,C1037,P0271,Electronics,Midwest,Marketplace,-1.0,589.79,1887.33,Debit Card,0.2,quantity_range_invalid; sales_amount_inconsistency
+O002587,2026-02-12,C0861,P0042,Toys,North,Store,3.0,894.87,2147.69,Credit Card,0.2,duplicate_order_ids
+O002612,2026-01-30,,P0021,Electronics,Southeast,Online,5.0,1221.23,5800.84,Debit Card,0.05,missing_critical_values
+O002625,2026-03-01,C0934,P0339,Accessories,North,Online,,1222.94,4891.76,Credit Card,0.0,missing_critical_values
+O002631,2026-01-17,C0363,P0325,Home,Midwest,Online,2.0,366.84,660.31,Credit Card,0.75,discount_pct_range_invalid; sales_amount_inconsistency
+O002637,2026-02-02,C0928,P0367,Toys,North,Store,,720.42,2053.2,Boleto,0.05,missing_critical_values
+O002654,2026-02-03,C0948,P0186,Electronics,Northeast,Store,1.0,332.86,266.29,Debit Card,0.2,duplicate_order_ids
+O002660,2026-02-11,C1319,P0275,Toys,South,Store,4.0,1098.44,3515.01,Pix,0.2,duplicate_order_ids
+O002692,2026-02-21,C0457,P0302,Home,Southeast,Marketplace,3.0,612.52,1561.93,Pix,-0.1,discount_pct_range_invalid; sales_amount_inconsistency
+O002727,2026-01-03,C0755,P0056,Electronics,Northeast,Store,1.0,742.65,1252.55,Debit Card,0.05,sales_amount_inconsistency
+O002776,2026/02/15,C0431,P0240,Toys,North,Marketplace,4.0,504.22,1916.04,Debit Card,-0.1,discount_pct_range_invalid; invalid_order_date; sales_amount_inconsistency
+O002779,2026-02-16,C0780,P0229,Electronics,Southeast,Store,2.0,,1184.83,Boleto,0.15,missing_critical_values
+O002799,2026-01-15,C1236,P0084,Home,South,Marketplace,5.0,,508.96,Credit Card,0.2,missing_critical_values
+O002800,2026-02-23,C1014,P0380,Accessories,Southeast,Online,2.0,160.32,256.51,Pix,-0.1,discount_pct_range_invalid; sales_amount_inconsistency
+O002815,2026-01-24,C0598,P0345,Toys,Midwest,Online,4.0,0.0,4367.84,Pix,0.2,sales_amount_inconsistency; unit_price_range_invalid
+O002819,2026-02-01,C1421,P0084,Electronics,South,Store,4.0,152.52,646.69,Pix,0.2,sales_amount_inconsistency
+O002850,2026-01-07,C0273,P0187,Home,Southeast,Online,3.0,,745.23,Debit Card,0.1,missing_critical_values
+O002855,2026-01-06,C1142,P0263,Toys,Northeast,Store,0.0,299.75,299.75,Debit Card,0.0,quantity_range_invalid; sales_amount_inconsistency
+O002863,2026-01-22,C0306,P0052,Electronics,Northeast,Store,4.0,175.02,824.01,Boleto,0.15,sales_amount_inconsistency
+O002906,2026-01-18,C0107,P0359,Toys,Midwest,Online,4.0,827.92,2980.51,Boleto,0.75,discount_pct_range_invalid; sales_amount_inconsistency
+O002914,2026-01-21,C0816,P0282,Electronics,North,Online,5.0,299.55,1979.15,Credit Card,0.0,sales_amount_inconsistency
+O002915,2026-01-26,C1429,P0146,Toys,South,Store,3.0,578.55,2422.63,Credit Card,0.2,sales_amount_inconsistency
+O002944,2026-01-03,C0293,P0209,Home,North,Online,5.0,768.58,3842.9,Pix,0.75,discount_pct_range_invalid; sales_amount_inconsistency
+O002985,2026-01-15,C0913,P0279,Toys,North,Marketplace,2.0,1221.55,3054.89,Credit Card,0.1,sales_amount_inconsistency
+O002991,2026-02-27,C0098,P0303,Electronics,North,Online,1.0,,1126.58,Pix,0.15,missing_critical_values
+O003003,15-02-2026,C0232,P0148,Electronics,North,Store,1.0,427.79,385.01,Boleto,0.1,invalid_order_date
+O003011,2026-01-09,C0071,P0366,,Midwest,Store,5.0,995.73,4978.65,Credit Card,0.0,missing_critical_values
+O003022,2026-02-08,C1413,P0081,Toys,North,Marketplace,2.0,591.73,946.77,Boleto,0.2,duplicate_order_ids
+O003025,2026-01-19,C1070,P0386,Home,Southeast,Marketplace,5.0,812.0,6019.04,Pix,0.05,sales_amount_inconsistency
+O003050,2026-02-13,C0482,P0329,Toys,Southeast,Online,5.0,1119.51,4478.04,Debit Card,0.2,duplicate_order_ids
+O003055,2026-02-25,C0088,P0112,,Southeast,Store,2.0,1296.07,2592.14,Pix,0.0,missing_critical_values
+O003056,15-02-2026,C1342,P0047,Home,Southeast,Online,2.0,714.19,1428.38,Debit Card,0.0,invalid_order_date
+O003134,2026-01-09,,P0399,Home,Midwest,Marketplace,4.0,126.03,428.5,Credit Card,0.15,missing_critical_values
+O003145,2026-01-05,C0512,P0088,,South,Store,1.0,636.0,540.6,Debit Card,0.15,missing_critical_values
+O003149,2026-02-12,C0270,P0149,Home,South,Store,-1.0,734.21,2349.47,Credit Card,0.2,quantity_range_invalid; sales_amount_inconsistency
+O003152,2026-02-02,C1323,P0112,Home,North,Store,3.0,972.56,2480.03,Credit Card,-0.1,discount_pct_range_invalid; sales_amount_inconsistency
+O003162,2026-01-02,C0435,P0321,Toys,Midwest,Store,-1.0,30.24,72.58,Boleto,0.2,duplicate_order_ids; quantity_range_invalid; sales_amount_inconsistency
+O003228,2026-01-20,C1390,P0082,Electronics,Northeast,Store,-1.0,1499.84,7124.24,Debit Card,0.05,quantity_range_invalid; sales_amount_inconsistency
+O003302,2026-02-24,C0299,P0201,Accessories,North,Marketplace,2.0,1098.53,3868.13,Credit Card,0.0,sales_amount_inconsistency
+O003304,2026-02-02,C1287,P0293,Toys,South,Store,5.0,521.33,2951.0,Credit Card,0.15,sales_amount_inconsistency
+O003342,invalid_date,C1185,P0122,Electronics,South,Store,5.0,383.09,1915.45,Boleto,0.0,invalid_order_date
+O003352,2026-01-24,C0539,P0075,Home,Northeast,Online,1.0,297.2,297.2,Pix,0.0,duplicate_order_ids
+O003358,2026-02-04,C0273,P0317,Accessories,North,Online,3.0,,2587.92,Debit Card,0.2,missing_critical_values
+O003386,2026-01-25,C1190,P0243,Office,Southeast,Online,,1497.38,1272.77,Debit Card,0.15,missing_critical_values
+O003408,2026-01-28,C0275,P0358,Electronics,Midwest,Online,2.0,0.0,1079.87,Debit Card,0.1,sales_amount_inconsistency; unit_price_range_invalid
+O003442,2026-02-03,C0059,P0076,Accessories,Midwest,Online,4.0,112.71,660.08,Debit Card,0.15,sales_amount_inconsistency
+O003451,2026-01-16,C0730,P0183,Electronics,Southeast,Online,2.0,,1472.56,Boleto,0.2,missing_critical_values
+O003464,2026-02-19,C0107,P0009,Toys,Midwest,Marketplace,-1.0,1484.69,1336.22,Credit Card,0.1,quantity_range_invalid; sales_amount_inconsistency
+O003491,2026-02-11,C1025,P0023,Home,South,Store,4.0,649.52,2598.08,Credit Card,-0.1,discount_pct_range_invalid; sales_amount_inconsistency
+O003530,2026-02-23,C0599,P0261,Accessories,South,Store,4.0,0.0,1418.62,Pix,0.15,sales_amount_inconsistency; unit_price_range_invalid
+O003544,2026-01-01,C0635,P0116,Accessories,Northeast,Store,5.0,529.4,2117.6,Boleto,0.2,duplicate_order_ids
+O003565,2026-02-17,C0827,P0214,Electronics,Midwest,Store,2.0,880.49,2305.02,Boleto,0.05,sales_amount_inconsistency
+O003586,2026-02-10,C1465,P0130,Office,Northeast,Marketplace,3.0,1402.9,3577.4,Credit Card,0.15,duplicate_order_ids
+O003599,2026-02-21,C1208,P0191,,Midwest,Online,4.0,834.08,3336.32,Credit Card,0.0,missing_critical_values
+O003600,2026-02-23,C0257,P0090,Office,South,Marketplace,2.0,246.95,444.51,Pix,0.1,duplicate_order_ids
+O003630,2026-01-09,C0535,P0095,Toys,South,Store,0.0,991.05,3765.99,Pix,0.05,quantity_range_invalid; sales_amount_inconsistency
+O003651,2026-01-24,C0350,P0236,Office,Southeast,Online,,616.14,2341.33,Credit Card,0.05,missing_critical_values
+O003669,2026-01-05,C0847,P0114,Accessories,Southeast,Store,1.0,0.0,549.65,Pix,0.2,sales_amount_inconsistency; unit_price_range_invalid
+O003679,2026-01-24,C1414,P0186,Toys,North,Store,,277.02,747.95,Boleto,0.1,missing_critical_values
+O003706,2026-01-19,C1465,P0122,Home,South,Store,1.0,0.0,820.28,Debit Card,0.1,sales_amount_inconsistency; unit_price_range_invalid
+O003708,2026-02-08,C0280,P0088,Electronics,Northeast,Store,-1.0,626.63,532.64,Boleto,0.15,quantity_range_invalid; sales_amount_inconsistency
+O003753,2026-02-10,C0305,P0339,Office,North,Marketplace,1.0,0.0,680.54,Credit Card,0.15,sales_amount_inconsistency; unit_price_range_invalid
+O003774,2026-02-08,C1157,P0400,Accessories,Northeast,Online,3.0,1235.65,3336.26,Boleto,0.1,duplicate_order_ids
+O003808,2026-01-20,C0481,P0062,Home,Southeast,Marketplace,1.0,1256.74,1005.39,Boleto,0.75,discount_pct_range_invalid; sales_amount_inconsistency
+O003886,2026-02-01,C0814,P0348,Accessories,Northeast,Online,0.0,214.75,816.05,Debit Card,0.05,quantity_range_invalid; sales_amount_inconsistency
+O003887,2026-01-12,C1139,P0328,Office,Midwest,Marketplace,0.0,483.07,458.92,Pix,0.05,quantity_range_invalid; sales_amount_inconsistency
+O003895,2026-02-17,C1097,P0212,Office,South,Store,,1070.14,3852.5,Pix,0.1,missing_critical_values
+O003907,2026-02-19,C1294,P0108,Office,Midwest,Online,2.0,81.56,138.65,Boleto,0.15,duplicate_order_ids
+O003909,2026-01-11,C0866,P0091,Office,North,Marketplace,5.0,1361.15,8391.96,Pix,0.0,sales_amount_inconsistency
+O003918,15-02-2026,C1161,P0100,Toys,South,Store,3.0,1347.22,4041.66,Pix,0.0,invalid_order_date
+O003961,2026-02-03,C1261,P0013,Accessories,Midwest,Store,3.0,530.72,1512.55,Debit Card,-0.1,discount_pct_range_invalid; sales_amount_inconsistency
+O003986,15-02-2026,C0603,P0163,Office,North,Online,2.0,690.34,1173.58,Debit Card,0.15,invalid_order_date
+O004004,2026-02-26,,P0279,Toys,Midwest,Marketplace,4.0,1407.89,5349.98,Pix,0.05,missing_critical_values
+O004019,2026-01-27,C1107,P0186,Toys,Midwest,Online,5.0,1467.59,11230.51,Credit Card,0.1,sales_amount_inconsistency
+O004067,2026-01-04,,P0256,Home,Northeast,Store,5.0,456.55,2282.75,Credit Card,0.0,duplicate_order_ids; missing_critical_values
+O004073,2026-01-22,C0908,P0160,,North,Store,1.0,1081.91,1027.81,Credit Card,0.05,missing_critical_values
+O004074,2026-01-07,C1057,P0089,Office,Midwest,Online,5.0,0.0,2852.72,Boleto,0.2,sales_amount_inconsistency; unit_price_range_invalid
+O004122,2026-01-07,C0783,P0038,Office,Northeast,Online,3.0,400.25,1020.64,Pix,0.15,duplicate_order_ids
+O004128,invalid_date,C1476,P0393,Home,Southeast,Marketplace,1.0,613.2,521.22,Pix,0.15,invalid_order_date
+O004136,2026/02/15,C0222,P0225,Accessories,North,Store,2.0,826.37,1652.74,Boleto,0.0,invalid_order_date
+O004141,2026-02-24,,P0212,Office,North,Store,1.0,1223.72,978.98,Boleto,0.2,missing_critical_values
+O004159,2026-02-09,C1027,P0082,Accessories,North,Online,1.0,,1016.39,Debit Card,0.2,missing_critical_values
+O004219,2026/02/15,C0013,P0263,Electronics,Southeast,Store,3.0,1111.83,3168.72,Credit Card,0.05,invalid_order_date
+O004228,2026-02-09,C0831,P0277,,Southeast,Marketplace,5.0,42.8,192.6,Boleto,0.1,missing_critical_values
+O004235,2026-02-06,C0535,P0294,Electronics,Northeast,Store,5.0,,4824.96,Pix,0.2,missing_critical_values
+O004250,2026-01-04,C1003,P0290,Electronics,Northeast,Store,,621.69,2238.08,Pix,0.1,missing_critical_values
+O004288,2026-02-18,C0442,P0316,Office,South,Marketplace,2.0,0.0,2279.2,Boleto,0.2,sales_amount_inconsistency; unit_price_range_invalid
+O004289,2026-03-01,C0871,P0247,Toys,Midwest,Online,4.0,217.03,1019.46,Pix,0.1,sales_amount_inconsistency
+O004316,2026-02-19,C0892,P0201,Electronics,Southeast,Marketplace,4.0,1367.46,4375.87,Boleto,0.2,duplicate_order_ids
+O004348,2026-01-25,,P0385,Electronics,Northeast,Marketplace,4.0,611.2,2430.95,Credit Card,0.2,missing_critical_values; sales_amount_inconsistency
+O004352,2026-01-07,C0912,P0181,Home,Southeast,Marketplace,3.0,290.16,1038.18,Boleto,0.15,sales_amount_inconsistency
+O004373,2026-01-31,C0769,P0139,Electronics,Southeast,Online,5.0,,3238.07,Debit Card,0.1,missing_critical_values
+O004403,2026-02-22,C1311,P0008,Home,Southeast,Store,4.0,177.97,1067.88,Debit Card,0.05,sales_amount_inconsistency
+O004429,2026-01-02,C1208,P0268,,Midwest,Online,2.0,185.24,333.43,Debit Card,0.1,missing_critical_values
+O004440,2026-02-05,C0791,P0216,Toys,South,Store,,599.35,958.96,Pix,0.2,missing_critical_values
+O004441,2026-01-12,C0083,P0032,Electronics,North,Marketplace,3.0,,3534.98,Debit Card,0.2,missing_critical_values
+O004448,2026-02-17,C1394,P0276,Accessories,Midwest,Online,3.0,510.09,1880.61,Boleto,0.1,sales_amount_inconsistency
+O004489,2026-01-31,C0073,P0394,Office,Midwest,Store,0.0,472.39,2361.95,Credit Card,0.0,quantity_range_invalid; sales_amount_inconsistency
+O004506,2026-02-28,C0674,P0103,Office,Midwest,Store,3.0,,1338.01,Debit Card,0.15,missing_critical_values
+O004519,15-02-2026,C0325,P0007,Home,Southeast,Store,5.0,1496.04,8961.08,Debit Card,0.05,invalid_order_date; sales_amount_inconsistency
+O004537,2026-02-15,C0894,P0234,Accessories,South,Online,4.0,,501.76,Boleto,0.0,missing_critical_values
+O004550,2026-01-16,C0554,P0003,Office,North,Online,-1.0,1088.1,870.48,Pix,0.2,quantity_range_invalid; sales_amount_inconsistency
+O004566,2026-03-01,C0879,P0032,Toys,Midwest,Marketplace,0.0,357.9,1216.86,Credit Card,0.15,quantity_range_invalid; sales_amount_inconsistency
+O004635,2026-02-26,C1136,P0399,Toys,Midwest,Online,3.0,1084.19,3859.48,Debit Card,0.15,sales_amount_inconsistency
+O004636,2026-02-07,C0210,P0227,Office,Northeast,Online,1.0,1369.61,1232.65,Pix,0.1,duplicate_order_ids
+O004659,2026-01-01,C1391,P0300,Toys,Northeast,Marketplace,4.0,167.75,603.9,Debit Card,-0.1,discount_pct_range_invalid; sales_amount_inconsistency
+O004670,2026-02-15,C1163,P0193,,Northeast,Online,2.0,1482.55,2520.34,Credit Card,0.15,missing_critical_values
+O004685,2026-01-17,C0557,P0038,Office,Southeast,Marketplace,4.0,195.06,780.24,Debit Card,0.0,duplicate_order_ids
+O004746,2026-02-17,C0506,P0165,,Northeast,Store,5.0,1185.91,4743.64,Pix,0.2,missing_critical_values
+O004747,2026-01-24,C1242,P0233,Office,Southeast,Marketplace,0.0,1325.26,5301.04,Boleto,0.0,quantity_range_invalid; sales_amount_inconsistency
+O004756,2026-02-04,,P0398,Electronics,Southeast,Store,5.0,878.91,3735.37,Boleto,0.15,missing_critical_values
+O004763,2026/02/15,C0673,P0232,Accessories,Midwest,Online,4.0,851.89,3897.1,Credit Card,0.2,invalid_order_date; sales_amount_inconsistency
+O004768,2026-01-19,C0330,P0179,Home,Northeast,Online,5.0,699.73,3498.65,Credit Card,0.0,duplicate_order_ids
+O004781,2026-01-11,C0066,P0400,Toys,Northeast,Online,3.0,1377.36,5923.8,Credit Card,0.1,sales_amount_inconsistency
+O004843,2026-01-04,C0664,P0131,Office,Southeast,Online,2.0,526.28,842.05,Debit Card,0.2,duplicate_order_ids
+O004863,2026-01-23,C0794,P0388,Electronics,South,Online,3.0,1057.81,2697.42,Credit Card,0.75,discount_pct_range_invalid; sales_amount_inconsistency
+O004867,2026-01-22,C0818,P0134,Accessories,Midwest,Marketplace,5.0,626.9,2821.05,Pix,0.1,duplicate_order_ids
+O004870,2026-02-04,C0151,P0081,Home,Southeast,Store,2.0,26.75,67.1,Boleto,0.15,sales_amount_inconsistency
+O004897,15-02-2026,C0531,P0106,Electronics,North,Online,2.0,1355.1,2439.18,Pix,0.1,invalid_order_date
+O004952,2026-02-11,C0933,P0224,Office,Midwest,Store,5.0,786.63,3146.52,Debit Card,0.75,discount_pct_range_invalid; sales_amount_inconsistency
+O004967,2026-02-02,C1489,P0001,Electronics,Northeast,Marketplace,5.0,1227.97,5832.86,Debit Card,0.05,duplicate_order_ids
+O004981,2026-02-24,C1393,P0261,Office,Northeast,Marketplace,3.0,500.64,1573.22,Credit Card,0.15,sales_amount_inconsistency
+O004988,2026-01-13,C0673,P0013,Office,Northeast,Marketplace,5.0,1427.19,6065.56,Debit Card,0.75,discount_pct_range_invalid; sales_amount_inconsistency
+O001502,2026-01-30,C0376,P0231,Toys,Southeast,Store,4.0,348.54,1324.45,Boleto,0.05,duplicate_order_ids
+O002587,2026-02-12,C0861,P0042,Toys,North,Store,3.0,894.87,2147.69,Credit Card,0.2,duplicate_order_ids
+O002654,2026-02-03,C0948,P0186,Electronics,Northeast,Store,1.0,332.86,266.29,Debit Card,0.2,duplicate_order_ids
+O001056,2026-02-27,C1152,P0113,Toys,South,Online,3.0,692.46,1973.51,Debit Card,0.05,duplicate_order_ids
+O000706,2026-02-05,C1467,P0319,Toys,Midwest,Online,5.0,1182.29,5320.3,Boleto,0.1,duplicate_order_ids
+O000107,2026-01-16,C0471,P0012,Toys,Southeast,Store,2.0,0.0,2424.39,Credit Card,0.15,duplicate_order_ids; sales_amount_inconsistency; unit_price_range_invalid
+O000590,2026-01-15,C0819,P0141,Accessories,North,Store,3.0,1365.82,3482.84,Pix,0.15,duplicate_order_ids
+O002469,2026-02-08,C0723,P0109,Office,Midwest,Online,2.0,1095.19,1752.3,Boleto,0.2,duplicate_order_ids
+O002414,2026-02-15,C1097,P0084,Toys,Southeast,Store,3.0,1077.03,2584.87,Pix,0.2,duplicate_order_ids
+O001601,2026-01-15,C1120,P0262,Accessories,Northeast,Marketplace,5.0,124.95,531.04,Pix,0.15,duplicate_order_ids
+O002465,2026-01-29,C1376,P0266,Toys,North,Marketplace,5.0,1429.99,6792.45,Boleto,0.05,duplicate_order_ids
+O000229,2026-01-18,C1247,P0372,Accessories,Midwest,Marketplace,3.0,485.46,1383.56,Credit Card,0.05,duplicate_order_ids
+O000916,2026-02-07,C1120,P0381,Accessories,Northeast,Store,2.0,1041.61,2083.22,Credit Card,0.0,duplicate_order_ids
+O000795,2026-01-20,C0584,P0296,Electronics,Northeast,Marketplace,4.0,424.77,1529.17,Boleto,0.1,duplicate_order_ids
+O003022,2026-02-08,C1413,P0081,Toys,North,Marketplace,2.0,591.73,946.77,Boleto,0.2,duplicate_order_ids
+O003544,2026-01-01,C0635,P0116,Accessories,Northeast,Store,5.0,529.4,2117.6,Boleto,0.2,duplicate_order_ids
+O001074,2026-01-29,C0425,P0042,Toys,North,Online,2.0,1261.6,2397.04,Boleto,0.05,duplicate_order_ids
+O003352,2026-01-24,C0539,P0075,Home,Northeast,Online,1.0,297.2,297.2,Pix,0.0,duplicate_order_ids
+O001745,2026-01-21,C0769,P0379,Electronics,Midwest,Marketplace,3.0,402.77,1208.31,Debit Card,0.0,duplicate_order_ids
+O001085,2026-01-13,C0391,P0335,Office,South,Online,4.0,32114.77,128459.08,Credit Card,0.0,duplicate_order_ids
+O000927,2026-01-18,C0294,P0195,Accessories,Southeast,Online,5.0,415.21,1868.44,Credit Card,0.1,duplicate_order_ids
+O003050,2026-02-13,C0482,P0329,Toys,Southeast,Online,5.0,1119.51,4478.04,Debit Card,0.2,duplicate_order_ids
+O001118,2026-01-23,C1361,P0254,Office,Southeast,Online,4.0,1109.87,3773.56,Debit Card,0.15,duplicate_order_ids
+O000643,2026-01-20,C1290,P0315,Office,North,Online,3.0,1130.14,2712.34,Credit Card,0.2,duplicate_order_ids
+O004768,2026-01-19,C0330,P0179,Home,Northeast,Online,5.0,699.73,3498.65,Credit Card,0.0,duplicate_order_ids
+O000502,2026-01-30,C0265,P0320,Accessories,South,Store,1.0,708.46,961.74,Credit Card,0.0,duplicate_order_ids; sales_amount_inconsistency
+O004067,2026-01-04,,P0256,Home,Northeast,Store,5.0,456.55,2282.75,Credit Card,0.0,duplicate_order_ids; missing_critical_values
+O000334,2026-02-14,C1355,P0129,Electronics,Southeast,Marketplace,-1.0,499.29,499.29,Pix,0.0,duplicate_order_ids; quantity_range_invalid; sales_amount_inconsistency
+O004685,2026-01-17,C0557,P0038,Office,Southeast,Marketplace,4.0,195.06,780.24,Debit Card,0.0,duplicate_order_ids
+O000487,2026-01-28,C0986,P0277,Accessories,Northeast,Store,4.0,1240.71,4962.84,Credit Card,0.0,duplicate_order_ids
+O001963,2026-01-30,C0348,P0159,Office,South,Store,1.0,380.9,342.81,Boleto,0.1,duplicate_order_ids
+O000394,2026-01-22,C0510,P0183,Office,South,Store,2.0,209.37,334.99,Pix,0.2,duplicate_order_ids
+O004843,2026-01-04,C0664,P0131,Office,Southeast,Online,2.0,526.28,842.05,Debit Card,0.2,duplicate_order_ids
+O004867,2026-01-22,C0818,P0134,Accessories,Midwest,Marketplace,5.0,626.9,2821.05,Pix,0.1,duplicate_order_ids
+O001756,2026-02-23,C1190,P0191,Toys,Midwest,Online,1.0,319.13,319.13,Boleto,0.0,duplicate_order_ids
+O002516,2026-02-07,C1067,P0117,Accessories,North,Marketplace,5.0,528.62,2643.1,Debit Card,0.0,duplicate_order_ids
+O003586,2026-02-10,C1465,P0130,Office,Northeast,Marketplace,3.0,1402.9,3577.4,Credit Card,0.15,duplicate_order_ids
+O004316,2026-02-19,C0892,P0201,Electronics,Southeast,Marketplace,4.0,1367.46,4375.87,Boleto,0.2,duplicate_order_ids
+O004967,2026-02-02,C1489,P0001,Electronics,Northeast,Marketplace,5.0,1227.97,5832.86,Debit Card,0.05,duplicate_order_ids
+O002100,2026-01-07,C0986,P0071,Home,Southeast,Marketplace,4.0,1319.87,4751.53,Boleto,0.1,duplicate_order_ids
+O003600,2026-02-23,C0257,P0090,Office,South,Marketplace,2.0,246.95,444.51,Pix,0.1,duplicate_order_ids
+O004122,2026-01-07,C0783,P0038,Office,Northeast,Online,3.0,400.25,1020.64,Pix,0.15,duplicate_order_ids
+O000030,2026-01-24,C1398,P0160,Electronics,North,Online,1.0,611.72,611.72,Debit Card,0.0,duplicate_order_ids
+O000066,2026-02-24,C0936,P0308,Toys,South,Store,5.0,1454.61,6909.4,Credit Card,0.05,duplicate_order_ids
+O000839,2026-01-27,C0137,P0367,Toys,Southeast,Marketplace,4.0,416.7,1333.44,Boleto,0.2,duplicate_order_ids
+O003907,2026-02-19,C1294,P0108,Office,Midwest,Online,2.0,81.56,138.65,Boleto,0.15,duplicate_order_ids
+O003774,2026-02-08,C1157,P0400,Accessories,Northeast,Online,3.0,1235.65,3336.26,Boleto,0.1,duplicate_order_ids
+O004636,2026-02-07,C0210,P0227,Office,Northeast,Online,1.0,1369.61,1232.65,Pix,0.1,duplicate_order_ids
+O003162,2026-01-02,C0435,P0321,Toys,Midwest,Store,-1.0,30.24,72.58,Boleto,0.2,duplicate_order_ids; quantity_range_invalid; sales_amount_inconsistency
+O002660,2026-02-11,C1319,P0275,Toys,South,Store,4.0,1098.44,3515.01,Pix,0.2,duplicate_order_ids

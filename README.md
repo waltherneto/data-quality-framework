@@ -47,6 +47,15 @@ Included data quality issues:
 - sales amount mismatches
 - anomalous values
 
+## Validation Outputs
+
+After validation, the pipeline splits the incoming dataset into two outputs:
+
+- `data/clean/sales_daily_clean.csv`: records that passed all critical validation rules
+- `data/quarantine/sales_daily_invalid.csv`: records that failed one or more critical rules
+
+Invalid records are enriched with a `failed_rules` column to make remediation and debugging easier.
+
 ## Status
 
 Initial repository scaffold in progress.
