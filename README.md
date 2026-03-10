@@ -35,6 +35,18 @@ data-quality-framework/
 └── README.md
 ```
 
+## Sample Dataset
+
+The raw dataset is synthetically generated to simulate a daily sales feed with realistic business fields and controlled data quality issues.
+
+Included data quality issues:
+- missing critical values
+- duplicate records
+- invalid numeric ranges
+- inconsistent date formats
+- sales amount mismatches
+- anomalous values
+
 ## Status
 
 Initial repository scaffold in progress.
