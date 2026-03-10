@@ -1,0 +1,39 @@
+{
+  "run_timestamp": "2026-03-10T09:43:40",
+  "input_file": "data\\raw\\sales_daily.csv",
+  "output_files": {
+    "clean_data": "data\\clean\\sales_daily_clean.csv",
+    "quarantine_data": "data\\quarantine\\sales_daily_invalid.csv"
+  },
+  "summary_metrics": {
+    "total_rows": 5050,
+    "valid_rows": 4737,
+    "invalid_rows": 313,
+    "valid_row_percentage": 93.8,
+    "invalid_row_percentage": 6.2
+  },
+  "dataset_level_failures": [
+    "customer_id_not_null",
+    "category_not_null",
+    "quantity_not_null",
+    "unit_price_not_null",
+    "order_id_unique",
+    "quantity_min_value",
+    "unit_price_positive",
+    "discount_pct_range"
+  ],
+  "critical_rule_counts": {
+    "schema_mismatch": 0,
+    "missing_critical_values": 75,
+    "duplicate_order_ids": 100,
+    "invalid_order_date": 25,
+    "sales_amount_inconsistency": 127,
+    "quantity_range_invalid": 34,
+    "unit_price_range_invalid": 14,
+    "discount_pct_range_invalid": 30
+  },
+  "warning_rule_counts": {
+    "unit_price_outliers": 26,
+    "sales_amount_outliers": 77
+  }
+}

@@ -56,6 +56,20 @@ After validation, the pipeline splits the incoming dataset into two outputs:
 
 Invalid records are enriched with a `failed_rules` column to make remediation and debugging easier.
 
+## Validation Report
+
+Each pipeline run generates a structured validation report in:
+
+- `reports/validation_report.json`
+
+The report includes:
+- total processed rows
+- valid vs invalid row counts
+- pass/fail percentages
+- dataset-level expectation failures
+- critical validation rule counts
+- warning counts for anomaly detection
+
 ## Status
 
 Initial repository scaffold in progress.
